@@ -1,5 +1,5 @@
-import statistics
 import streamlit as st
+import statistics
 import matplotlib.pyplot as plt
 
 grades = [5, 6, 4, 6, 3, 5, 4, 6]
@@ -29,4 +29,5 @@ elif (avg >= 4):
     print("Много добър")
 else:
     print("Трябва повече старание")
+
 st.pyplot(fig)
