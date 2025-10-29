@@ -30,4 +30,5 @@ elif (avg >= 4):
 else:
     print("Трябва повече старание")
 
+fig, ax = plt.subplots()
 st.pyplot(fig)
