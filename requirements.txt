@@ -1,3 +1,4 @@
 statistics
 numpy
 scipy
+matplotlib
