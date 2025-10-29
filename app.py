@@ -31,4 +31,5 @@ else:
     print("Трябва повече старание")
 
 fig, ax = plt.subplots()
+ax.hist(grades, bins=range(3, 8), edgecolor='black', alpha=0.7)
 st.pyplot(fig)
